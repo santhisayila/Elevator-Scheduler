@@ -1,8 +1,8 @@
-📌 Project Overview
+📌 Project Overview:
 The Elevator Scheduler is a C++ program that simulates the functioning of an elevator inside a multi-floor building. It uses Dijkstra's Algorithm to calculate the shortest path between floors and efficiently manage elevator movement based on user requests.
 This project demonstrates the use of graphs, priority queues, adjacency lists, and shortest-path algorithms in a real-time application.
 
-🚀 Features
+🚀 Features:
 Allows the user to specify:
 Number of floors in the building
 Current elevator position
@@ -13,7 +13,7 @@ Handles multiple user requests dynamically
 Shows elevator movement from floor to floor
 Continues processing requests until users choose to stop
 
-🧠 Technologies & Concepts Used
+🧠 Technologies & Concepts Used:
 C++
 Graphs & Adjacency Lists
 Dijkstra’s Algorithm
@@ -22,13 +22,13 @@ STL Containers: vector, queue, unordered_map, set
 Shortest Path Computation
 User Input Handling
 
-📁 Project Structure
+📁 Project Structure:
 ElevatorScheduler/
  ├── elevator.cpp        # Main source code
  ├── README.md           # Documentation
  └── (optional) screenshots/  # Output sample images
  
-🧱 How the System Works
+🧱 How the System Works:
 Graph is created with edges between adjacent floors.
 User inputs:
 Total number of floors
@@ -41,7 +41,7 @@ Requests are sorted based on shortest path
 Elevator moves in optimal order
 The loop ends when user enters -1.
 
-🔧 How to Compile & Run
+🔧 How to Compile & Run:
 Using g++
 g++ elevator.cpp -o elevator
 ./elevator
@@ -50,7 +50,7 @@ Create a new C++ project
 Copy the code into main.cpp
 Build & run the project
 
-📌 Sample Input Flow
+📌 Sample Input Flow:
 Enter number of floors in a building: 10
 Enter the floor where the elevator is currently located: 3
 Enter number of destination floors: 2
@@ -59,7 +59,7 @@ Multiple Requests Mode:
 Enter multiple requests for current floor 2 (enter -1 to finish):
 5 9 1 -1
 
-📝 Output Example
+📝 Output Example:
 Elevator is moving from floor 3 to floor 7
 Elevator is moving from floor 7 to floor 2
 Elevator is idle
@@ -70,22 +70,22 @@ Elevator is moving from floor 1 to floor 5
 Elevator is moving from floor 5 to floor 9
 Elevator is idle
 
-📷 Screenshots
+📷 Screenshots:
 15-floor building example
 
-📚 References
+📚 References:
 Dijkstra's Algorithm – GeeksForGeeks
 C++ STL Documentation – cppreference.com, cplusplus.com
 “Introduction to Algorithms” – Cormen
 “Data Structures and Algorithms in C++” – Adam Drozdek
 
-👥 Team Members
+👥 Team Members:
 Sk. Ruksana
 S. Thanu Sri
 T. Hema Harshitha
 V. Keerthi Reddy
 S. Santhi Deepika
 
-🏫 Guide
+🏫 Guide:
 Dr. K Jyothsna Devi, Assistant Professor
 Prasad V Potluri Siddhartha Institute of Technology
